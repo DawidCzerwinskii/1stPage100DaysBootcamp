@@ -1,9 +1,25 @@
 body {
-    background-color: rgb(243,232,254);
+  background-color: rgb(243, 232, 254);
+}
+
+/* header {
+  display: flex;
+  justify-content: center;
+} */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: rgb(89, 46, 201);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  height: 100px;
 }
 
 /* colors
-h1 rgb(89,46,201)
 h2 rgb(249,235,255)
 highlighted rgb(246,227,203)
 rest font rgb(255,228,254)
