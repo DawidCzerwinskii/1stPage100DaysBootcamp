@@ -1,9 +1,9 @@
 body {
   background-color: rgb(243, 232, 254);
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
   color: rgb(89, 46, 201);
   font-size: 2rem;
   display: flex;
@@ -21,7 +21,7 @@ h1 {
 main {
   padding: 2rem;
   border-radius: 8px;
-  margin: auto 100px auto 100px;
+  margin: auto 375px auto 375px;
   background-color: rgb(118, 74, 217);
   color: rgb(255, 228, 254);
 }
@@ -30,14 +30,32 @@ h2 {
   color: rgb(249, 235, 255);
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: -25px;
+  padding: 5px;
+}
+
 .highlighted {
   color: rgb(246, 227, 203);
+  list-style-type: ;
 }
 
 a {
   background-color: rgb(247, 231, 166);
+  padding: 2px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
 footer a {
   background-color: rgb(249, 201, 38);
+  padding: 10px;
+}
+
+footer {
+  margin-top: 25px;
 }
