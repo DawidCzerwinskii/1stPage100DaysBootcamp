@@ -45,7 +45,7 @@ li {
 }
 
 .highlighted::marker {
-  content: '|';
+  content: "|";
   font-size: 20px;
   font-weight: bold;
   color: rgb(223, 223, 4);
@@ -63,7 +63,6 @@ footer a {
   background-color: rgb(249, 201, 38);
   padding: 10px;
   max-width: 600px;
-  
 }
 footer p {
   text-align: center;
