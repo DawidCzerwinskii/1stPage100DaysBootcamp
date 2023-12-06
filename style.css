@@ -21,7 +21,7 @@ h1 {
 main {
   padding: 2rem;
   border-radius: 8px;
-  margin: auto 375px auto 375px;
+  margin: auto 30% auto 30%;
   background-color: rgb(118, 74, 217);
   color: rgb(255, 228, 254);
 }
@@ -44,8 +44,16 @@ li {
   list-style-type: ;
 }
 
+.highlighted::marker {
+  content: '|';
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(223, 223, 4);
+}
+
 a {
   background-color: rgb(247, 231, 166);
+  color: black;
   padding: 2px;
   border-radius: 5px;
   text-decoration: none;
@@ -54,8 +62,16 @@ a {
 footer a {
   background-color: rgb(249, 201, 38);
   padding: 10px;
+  max-width: 600px;
+  
+}
+footer p {
+  text-align: center;
 }
 
 footer {
+  margin-top: 25px;
+  display: grid;
+  justify-content: center;
   margin-top: 25px;
 }
