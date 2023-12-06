@@ -2,11 +2,6 @@ body {
   background-color: rgb(243, 232, 254);
 }
 
-/* header {
-  display: flex;
-  justify-content: center;
-} */
-
 h1 {
   font-family: "Roboto", sans-serif;
   color: rgb(89, 46, 201);
@@ -15,23 +10,34 @@ h1 {
   justify-content: center;
 }
 
-img {
+#logos {
+  width: auto;
   height: 100px;
-  margin: auto 550px 30px 550px
+  text-align: center;
+  margin: 0 auto 20px auto;
+  display: block;
 }
 
 main {
   padding: 2rem;
   border-radius: 8px;
-  margin: auto 300px auto 300px;
+  margin: auto 100px auto 100px;
   background-color: rgb(118, 74, 217);
-  color: rgb(255, 228, 254)
+  color: rgb(255, 228, 254);
 }
 
-/* colors
-h2 rgb(249,235,255)
-highlighted rgb(246,227,203)
-rest font rgb(255,228,254)
-a rgb(247,231,166)
-footer a rgb(249,201,38)
- */
+h2 {
+  color: rgb(249, 235, 255);
+}
+
+.highlighted {
+  color: rgb(246, 227, 203);
+}
+
+a {
+  background-color: rgb(247, 231, 166);
+}
+
+footer a {
+  background-color: rgb(249, 201, 38);
+}
